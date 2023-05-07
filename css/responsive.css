@@ -131,5 +131,19 @@
         font-size: 18px;
     }
 }
-@media (max-width:420px){   
+@media (max-width:492px){
+    .header-menu ul li a {       
+        padding: 8px 7px;        
+        font-size: 12px;       
+    }
+    .social .social-icons ul li a {    
+    width: 30px;
+    height: 30px;    
+    line-height: 30px;    
+    margin: 7px;
+    font-size: 20px;
+    }
+    .footer strong {    
+    font-size: 12px;
+    }
 }
