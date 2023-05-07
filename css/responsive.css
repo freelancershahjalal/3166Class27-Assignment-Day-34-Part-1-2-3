@@ -1,0 +1,135 @@
+@media (max-width:1520px){
+    .max-width {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+}
+@media (max-width:1024px){
+    .main-header .max-width {
+        display: inline-block;       
+        align-items: center;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-menu {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:992px){
+    .services-card{
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+    .about-item-content .left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .about-item-content .right {
+        width: 100%;        
+    }
+    .contact .contact-items .contact-card {
+        width: 50%;
+        padding: 30px;
+        margin: auto;
+    }
+    
+}
+@media (max-width:768px){  
+    .banner{
+        width: 100%;
+    }  
+    .header-menu ul li {
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .banner .banner-content h1 {
+        font-size: 40px;
+        
+    }
+    .services-card{
+        width: 100%;        
+        margin-bottom: 30px;
+        padding: 0px 20px;
+        
+    }
+    .about-item-content .column{
+        width: 100%;
+        padding: 0px 30px;
+    }    
+    .about-item-content .left{
+        padding-bottom: 50px;
+        
+    }
+    .about-item-content .right{}
+
+    .contact .contact-items .contact-card {
+        width: 100%;
+        padding: 30px;
+    }
+    .main-header{
+        position: relative;
+    }
+    .banner{
+        height: 400px;
+    }
+
+}
+@media (max-width:610px){
+    .header-menu ul li a {       
+        padding: 8px 10px;        
+        font-size: 14px;       
+    }
+    .banner .banner-content h1 {
+        font-size: 30px;
+    }
+    .banner .banner-content p {
+        padding: 20px 0px;
+    }
+    .banner {
+        height: 300px;
+    }
+}
+@media (max-width:576px){ 
+
+    .banner .banner-content h1 {
+        font-size: 25px;        
+    }
+    .banner .banner-content p {
+        padding: 15px 0px;
+    }
+    .banner {
+        height: 250px;
+    }
+    .default-btn {
+        display: inline-block;
+        padding: 8px 15px;       
+        font-size: 16px;        
+    }
+    .services .services-title h2, .about .about-title h2, .contact .contact-title h2 {        
+        font-size: 30px;
+        
+    }
+    .services, .about, .contact {
+        padding: 80px 0px;        
+    }
+    .services-card {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .services-content h3 {
+        font-size: 20px;        
+    }
+    .services-content p {
+        line-height: 28px;
+        font-size: 18px;
+    }
+}
+@media (max-width:420px){   
+}
