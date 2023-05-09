@@ -1,4 +1,4 @@
-@media (max-width:1520px){
+@media all and (max-width:1520px){
     .max-width {
         width: 100%;
         max-width: 100%;
@@ -6,7 +6,7 @@
         padding: 0px 20px;
     }
 }
-@media (max-width:1024px){
+@media all and (max-width:1024px){
     .main-header .max-width {
         display: inline-block;       
         align-items: center;
@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width:992px){
+@media all and (max-width:992px){
     .services-card{
         width: calc(50% - 20px);
         margin-bottom: 30px;
@@ -41,7 +41,7 @@
     }
     
 }
-@media (max-width:768px){  
+@media all and (max-width:768px){  
     .banner{
         width: 100%;
     }  
@@ -81,7 +81,7 @@
     }
 
 }
-@media (max-width:610px){
+@media all and (max-width:610px){
     .header-menu ul li a {       
         padding: 8px 10px;        
         font-size: 14px;       
@@ -96,7 +96,7 @@
         height: 300px;
     }
 }
-@media (max-width:576px){ 
+@media all and (max-width:576px){ 
 
     .banner .banner-content h1 {
         font-size: 25px;        
@@ -131,10 +131,10 @@
         font-size: 18px;
     }
 }
-@media (max-width:492px){
+@media all and (max-width:492px){
     .header-menu ul li a {       
-        padding: 8px 7px;        
-        font-size: 12px;       
+        padding: 8px 5px;        
+        font-size: 10px;       
     }
     .social .social-icons ul li a {    
         width: 30px;
